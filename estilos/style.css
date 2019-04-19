@@ -1,3 +1,8 @@
+header, .Hero, .project, .enlaces, .footer{
+    display: block;
+}
+
+
 .header{
     background-color: rgb(0, 0, 0);
     width: auto;
@@ -56,7 +61,7 @@ figure{
     }
     
     h1 strong{
-        color:sandybrown;
+        color:#e07612;
         text-transform: uppercase;
     }
 
@@ -94,19 +99,24 @@ figure{
     margin: 0;
     display: flex;
     background-color: #fafafa; 
+    border-top:10px solid #e07612;
+    border-bottom:10px solid #000000;
 }
 
 .project-contenido{
     font-size:18px;
     text-align: justify;
-    padding: 10px 20px;
+    padding: 0px 20px;
 }
 
 .enlaces{
-    background-color: #fafafa;
+    background-color: #2b2626;
+    color: white;
     padding-left: 10px;
     display: flex;
     justify-content: space-between;
+    border-bottom:10px solid #e07612;
+    margin: 0;
 }
 
 
