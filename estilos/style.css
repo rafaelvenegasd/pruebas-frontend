@@ -95,19 +95,22 @@ h1 strong{
 }
 
 .project{
-    margin: 0;
+    /* margin: 0; */
     display: flex;
     background-color: #fafafa; 
     border-top:10px solid #e07612;
     border-bottom:10px solid #000000;
-    height: 600px;
 }
 
-.project-contenido{
+ 
+.project_description {
     font-size:18px;
-    text-align: justify;
-    padding: 0px 20px;
-}
+    text-align: justify; 
+} 
+
+.project-contenido{
+    padding: 20px;
+} 
 
 .enlaces-tittle{
 padding: 10px;
