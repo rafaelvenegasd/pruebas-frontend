@@ -184,12 +184,14 @@ margin: 0;
     margin: 0 auto;
 }
 .contact{
-    padding: 10px;
+    padding: 10px 150px;
     font-size:1.5em;
     background-color: #fafafa;
     text-align: center;
-    vertical-align: center;
+    /* vertical-align: center; */
     border-bottom:10px solid #e07612;
+    display: flex;
+    justify-content: space-between;
 }
 
 button{
@@ -210,6 +212,14 @@ button{
 input{
     font-family: 'Poppins', sans-serif;
     font-size: 14;
+}
+
+.social-link{
+    width: 50px;
+    height: 50px;
+    border: 1px solid blue;
+    display: inline-block;
+
 }
 
 .footer{
