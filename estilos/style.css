@@ -14,6 +14,8 @@ body{
     margin: 0;
     padding-top: 1px;
     padding-bottom: 0;
+    padding-left: 250px;
+    padding-right: 250px;
     width: 70;
     display:flex;
     justify-content: space-between;
@@ -63,7 +65,7 @@ h2, h3, h4, h5, h6{
 }
     
 h1 strong{
-        color:#e07612;
+        color:#eccb37e8;
         text-transform: uppercase;
 }
 
@@ -77,13 +79,14 @@ h1 strong{
 
 .Hero {
     background-image: url('../imagenes/fondo2.jpg');
-    background-color: gainsboro;
-    max-width: 100%;
-    width: auto;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: right;
-    height: 560px;
+    justify-content: center;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 
@@ -91,27 +94,36 @@ h1 strong{
     float: right;
     line-height: 1.3;
     color:white;
-    font-size: 3em;
+    font-size: 4em;
     font-family: 'Playfair Display', serif, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 1px;
     padding: 0px 20px;
 }
 
 .project{
-    margin: 0; 
     display: flex;
     background-color: #fafafa; 
-    border-top:10px solid #e07612;
+    border-top:10px solid #e3bb00;
     border-bottom:10px solid #000000;
     align-items: center;
+    height: 50vh;
+    margin: 0;
 }
 
 .project-contenido{
-    padding: 20px;
+    padding: 20px 70px 20px 250px;
     font-size: 1em;
+    text-align: justify;
 } 
 
-.project img, .enlaces img, .pray img{
+
+.project img{
+    width: 40vh;
+    padding: 0px 250px 0px 0px;
+}
+
+}
+ .enlaces img, .pray img{
         width: 100%;
         height: auto;
 }
@@ -128,15 +140,18 @@ padding: 15px 35px;
 text-transform: uppercase;
 background-color: #fafafa;
 margin: 0;
+padding-left: 250px;
 }
 
 .enlaces{
     background-color: #fafafa;
     display: flex;
     justify-content: space-between;
-    border-bottom:10px solid #e07612;
-    padding: 0 30px;
+    border-bottom:10px solid #e3bb00;
+    /* padding: 0 30px; */
     padding-bottom: 10px;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .predicas, .radio, .enseñanzas{
@@ -164,6 +179,8 @@ margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 
@@ -184,18 +201,19 @@ margin: 0;
     margin: 0 auto;
 }
 .contact{
-    padding: 10px 150px;
+    padding: 10px;
     font-size:1.5em;
     background-color: #fafafa;
     text-align: center;
-    /* vertical-align: center; */
-    border-bottom:10px solid #e07612;
+    vertical-align: center;
+    border-bottom:10px solid #e3bb00;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 button{
-    
     text-decoration: none;
     padding: 10px;
     /* font-weight: 600; */
@@ -214,11 +232,11 @@ input{
     font-size: 14;
 }
 
-.social-link{
+.social{
     width: 50px;
     height: 50px;
-    border: 1px solid blue;
-    display: inline-block;
+    padding-top: 60px;
+    padding-left: 500px;
 
 }
 
@@ -232,6 +250,8 @@ input{
     align-items: center;
     font-size: 14;
     font-family: 'Poppins', sans-serif;
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .footer a{
