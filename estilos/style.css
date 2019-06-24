@@ -12,11 +12,11 @@ header, .Hero, .project, .enlaces, .footer, .nosotros{
     align-items: center;
     height: 60px;
     color: white;
-    padding-top: 1px;
+    /* padding-top: 1px;
     padding-bottom: 0;
     padding-left: 10rem;
-    padding-right: 10rem;
-    width: 90%;
+    padding-right: 10rem; */
+    width: 100%;
     display:flex;
     justify-content: space-between;
 }
@@ -69,6 +69,19 @@ h1 strong{
         text-transform: uppercase;
 }
 
+.container{
+    border: #59ba18 solid 2px;
+    margin: 0 auto;
+    width: 1080px;
+    display: inherit;
+    justify-content: inherit;
+    text-align: inherit;
+    vertical-align: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
+
 .header a{
     color: white;
     text-decoration: none;
@@ -117,11 +130,13 @@ h1 strong{
     padding: 5px 20px;
     width: 96%;
     margin: 0 auto;
+    flex-wrap: wrap;
 } 
 
  .enlaces img, .pray img{
         width: 100%;
         height: auto;
+        object-fit: cover;
 }
 
 .enlaces figure, .pray img{
@@ -155,6 +170,7 @@ padding-left: 250px;
     max-width: 850px;
     margin: 0 auto;
     border-radius: 10px;
+    flex-wrap: wrap;
 }
 
 .list{
@@ -204,6 +220,7 @@ padding-left: 250px;
     justify-content: center;
     padding-left: 10rem;
     padding-right: 10rem;
+    flex-wrap: wrap;
 }
 
 button{
